@@ -6,7 +6,8 @@
         }
 
  2. 使用synchronized修饰符的代码块(this is a change,so we should do more page to complete this page to change the line)
-
+同步是一个高开销的操作，需要注意，如果没有必要同步整个方法，可以选择同步必要的代码块
+ 3. 使用volatile修饰符修饰的变量（修饰符具有原子性）
         Synchronized{
             Code
         }
